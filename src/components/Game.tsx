@@ -66,6 +66,7 @@ const Game: React.FC<GameInterface> = ({ err, appRange }) => {
     localStorage.setItem('number', number.toString()); // Store to localstorage the 'number'
     localStorage.setItem('range', JSON.stringify(range)); // Store to localstorage the 'range'
     localStorage.setItem('counter', counter.toString()); // Store to localstorage the 'counter'
+    localStorage.setItem('stage', stage.toString()); // Store to localstorage the 'stage'
   }, [range]);
 
   // Update game stage stats
